@@ -39,7 +39,8 @@ def decrypt(encrypted_text, key):
 
 def hack(sentence):
     """
-    
+    try to get the decrypted text 
+    with the correct key
     """
     word_arr = []
     count_arr = []
@@ -67,6 +68,6 @@ def hack(sentence):
 
 
 
-# print(encrypt("home sweet home",2))
-# print(hack("jqog uyggv jqog"))
+print(encrypt("home sweet home",2))
+print(hack("jqog uyggv jqog"))
 print(encrypt("my name is aya",5))
